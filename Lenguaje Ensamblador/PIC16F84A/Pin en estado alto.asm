@@ -20,7 +20,7 @@
 INICIO		BSF		STATUS,RP0	;Seleccionamos el banco 1
 		CLRF		TRISB		;Configuramos PORTB como salida
 		BCF		STATUS,RP0	;Seleccionamos el banco 0
-PRINCIPAL	MOVLW		B'00000001'	;Cragamos un numero binario en W
+PRINCIPAL	MOVLW		B'00000001'	;Cargamos un numero binario en W
 		MOVWF		PORTB		;Movemos lo cargado en W al registro PORTB
-		GOTO		PRINCIPAL	;Saltamos  PRINCIPAL
+		GOTO		PRINCIPAL	;Saltamos a PRINCIPAL
 		END				;Termina el programa
