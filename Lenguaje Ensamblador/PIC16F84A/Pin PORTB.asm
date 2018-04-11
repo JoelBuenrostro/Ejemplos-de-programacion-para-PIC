@@ -1,5 +1,5 @@
 ;-------------------------------------------------------------------------------------------
-;Autor: Joel Buenrostro
+;Contribuidor: Joel Buenrostro
 ;Fecha: 09/04/2018
 ;Entorno: MPLAB X IDE v4.15
 ;Compilador: mpasm (v5.77)
