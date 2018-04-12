@@ -1,6 +1,6 @@
 /*******************************************************************************
  * Archivo: 
- * Autor: 
+ * Contribuidor: 
  * Fecha: 
  * Dispositivo: 
  * Entorno: 
