@@ -1,5 +1,5 @@
 /******************************************************************************
-*Archivo:Activar RB2
+*Archivo: Control RB2.c
 *Contribuidor: Joel Buenrostro
 *Fecha: 19/04/2018
 *Dispositivo: PIC16F84A
@@ -20,7 +20,7 @@
 /*****************************************************************************/
 
 void main(VOID) {
-   set_tris_b (0xFB);         //Configuramos RB0 como salida (Binario:11111011)
+   set_tris_b (0xFB);         //Configuramos RB2 como salida (Binario:11111011)
    DO{
       output_low (PIN_B2);    //Pone RB2 en estado logico bajo
       delay_ms (500);         //Espera 500 milisegundos
