@@ -1,4 +1,4 @@
-/******************************************************************************************
+D/******************************************************************************************
 *Archivo: Control RB1.c
 *Contribuidor: Joel Buenrostro
 *Fecha: 18/04/2018
@@ -20,11 +20,11 @@
 /*****************************************************************************************/
 
 void main(VOID) {
-   set_tris_b (0xFE);         //Configuramos RB0 como salida (Binario:11111101)
+   set_tris_b (0xFD);         //Configuramos RB0 como salida (Binario:11111101)
    DO{
-      output_low (PIN_B1);    //Pone RB0 en estado logico bajo
+      output_low (PIN_B1);    //Pone RB1 en estado logico bajo
       delay_ms (500);         //Espera 500 milisegundos
-      output_high (PIN_B1);   //Pone RB0 en estado logico alto
+      output_high (PIN_B1);   //Pone RB1 en estado logico alto
       delay_ms (500);         //Espera 500 milisegundos
    }WHILE (TRUE);             //Se repite dentro de un bucle infinito
 }
