@@ -1,5 +1,5 @@
 /******************************************************************************
-*Archivo: Control RB3 RB3
+*Archivo: Control RB3.c
 *Contribuidor: Joel Buenrostro
 *Fecha: 19/04/2018
 *Dispositivo: PIC16F84A
@@ -20,7 +20,7 @@
 /*****************************************************************************/
 
 void main(VOID) {
-   set_tris_b (0xF7);         //Configuramos RB0 como salida (Binario:11110111)
+   set_tris_b (0xF7);         //Configuramos RB3 como salida (Binario:11110111)
    DO{
       output_low (PIN_B3);    //Pone RB3 en estado logico bajo
       delay_ms (500);         //Espera 500 milisegundos
