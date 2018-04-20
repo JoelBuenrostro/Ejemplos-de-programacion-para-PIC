@@ -22,9 +22,9 @@
 void main(VOID) {
    set_tris_b (0xFB);         //Configuramos RB0 como salida (Binario:11111011)
    DO{
-      output_low (PIN_B2);    //Pone RB0 en estado logico bajo
+      output_low (PIN_B2);    //Pone RB2 en estado logico bajo
       delay_ms (500);         //Espera 500 milisegundos
-      output_high (PIN_B2);   //Pone RB0 en estado logico alto
+      output_high (PIN_B2);   //Pone RB2 en estado logico alto
       delay_ms (500);         //Espera 500 milisegundos
    }WHILE (TRUE);             //Se repite dentro de un bucle infinito
 }
