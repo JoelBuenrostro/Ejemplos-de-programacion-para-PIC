@@ -1,0 +1,37 @@
+ADDLW			Suma un valor literal al contenido del registro W
+ADDWF			Suma el contenido de un registro al contenido del registro W
+ANDLW			Operacion logica AND entre un literal y el registro W
+ANDWF			Operacion logica AND entre un registro F y el registro W
+BCF				Pone en cero el bit b del registro f
+BSF				Pone en uno el bit b del registro f
+BTFSC			Prueba el bit b del registro f y salta una line si esta en cero
+BTFSS			Prueba el bit b del registro f y salta una line si esta en uno
+CALL			Llama una subrutina que esta ubicada en la posicion de memoria o etiqueta k
+CLRF			Borra el contenido del registro f lo carga con 00
+CLRW			Borra el contenido del registro W lo carga con 00
+CLRWDT		Borra el conteo del watchdog timer
+COMF			Complementa el contenido del registro f
+DECF			Decrementa el contenido del registro f
+DECFSZ		Decrementa el contenido del registro f si el contenido queda en 00 salta una linea
+GOTO			El contador de programa salta a la direccion k
+INCF			Incrementa el contenido del registro f
+INCFSZ		Incrementa el contenido del registro f si el contenido de f queda en 00 salta una linea
+IORLW			Operacion logica OR entre el registro W y el literal k
+IORWF			Operacion logica OR entre el registro W y el registro f
+MOVLW			Carga el registro W con el literal k
+MOVF			Mueve el contenido del registro f
+MOVWF			Mueve el contenido del registro W al registro
+NOP				No hace nada
+OPTION		Carga el registro OPTION con el contenido del registro W
+RETFIE		Retorno del llamado a interrupcion
+RETLW			Retorno de interrupcion y carga el registro W con el literal k
+RETURN		Retorno desde subrutina
+RLF				Rote el contenido del registro f a la izquierda, usando carry
+RRF				Rote el contenido del registro f a la derecha, usando carry
+SLEEP			Entra en modo standby
+SUBLW			Resta el contenido del registro W de el literal k (usando el metodo de complemento a dos)
+SUBWF			Resta el contenido del registro W de el registro f (usando el metodo de complemento a dos)
+SWAPF			Intercambia los cuatro bits altos y los cuatro bits bajos del registro f
+TRIS			Carga el registro TRIS (programacion de los puertos como entrada/salida) con el contenido del registro W
+XORLW			Operacion logica XOR entre el registro W y el literal k
+XORWF			Operacion logica XOR entre el registro W y el registro f
