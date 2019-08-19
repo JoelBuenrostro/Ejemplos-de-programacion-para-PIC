@@ -1,14 +1,8 @@
-# Ejemplos-de-programacion-para-PIC
-Ejemplos en codigo para la programacion de microcontroladores PIC de Microchip
+# PIC Programming examples
+Code examples for programming Microchip PIC microcontrollers
 
-Este es un repositorio que recopila los ejemplos en codigo del sitio https://joelbuenrostroblog.blogspot.mx/ cuya finalidad es el aprendizaje en la programacion de diversos tipos de microcontroladores.
+This is a repository that collects the code examples of the site https://joelbuenrostroblog.blogspot.mx/ whose purpose is learning in the programming of various types of microcontrollers.
 
-El repositorio esta dividido por: 
+The repository is divided by:Programming languages> Category / Device> FunctionActually 
 
-Lengujes de programacion > Categoria/Dispositivo > Funcion
-
-En realidad Ejemplos de programacion para PIC no es un proyecto en si, es un recopilacion de pequeños codigos que explotan las 
-caracteristicas especiales de los microcontroladores y sus perifericos y como programarlos.
-
-Todos los aportes son bienvenidos, la finalidad de este repositorio es ser un recurso educativo sacando provecho de las plataformas 
-colaborativas.
+Programming Examples for PIC is not a project in itself, it is a collection of small codes that exploit thespecial characteristics of microcontrollers and their peripherals and how to program them.All contributions are welcome, the purpose of this repository is to be an educational resource taking advantage of the collaborative platforms,

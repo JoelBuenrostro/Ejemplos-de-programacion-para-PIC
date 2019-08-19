@@ -1,24 +1,24 @@
 /******************************************************************************
-*Archivo:
-*Contribuidor:
-*Fecha:
-*Dispositivo:
-*Entorno:
-*Compilador:
-*Descripcion:
+*File:
+*Author:
+*Date:
+*Device:
+*Environment:
+*Compiler:
+*Description:
 *
 ******************************************************************************/
 #include
 /******************************************************************************
-*Bits de configuracion
+*Configuration Bits
 ******************************************************************************/
-#fuses 
+#fuses
 /******************************************************************************
-*Frecuencia de oscilador y configuracion de puertos
+*Frecuency and ports configuration
 ******************************************************************************/
-#use delay (clock= )
+#use delay(clock =)
 /*****************************************************************************/
 
-void main(void) {
-
+void main(void)
+{
 }
