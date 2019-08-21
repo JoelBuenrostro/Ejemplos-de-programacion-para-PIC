@@ -1,18 +1,18 @@
 ;-------------------------------------------------------------------------------
-;Archivo:
-;Contribuidor:
-;Fecha:
-;Entorno:
-;Compilador:
-;Descripcion:
+;File:
+;Author:
+;Date:
+;Environment:
+;Compiler:
+;Description:
 ;-------------------------------------------------------------------------------
-;Dispositivo
+;Device
                 List P=
                 #include ""
 ;-------------------------------------------------------------------------------
-;Bits de configuracion
+;Configuration Bits
 
 ;-------------------------------------------------------------------------------
-;Etiquetas	Instruccion	Operando	Comentario
+;Labels     Instruction     Operand     Comments
 ;-------------------------------------------------------------------------------
 
