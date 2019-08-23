@@ -1,30 +1,30 @@
 ;-------------------------------------------------------------------------------------------
-;Archivo: Pin PORTA.asm
-;Contribuidor: Joel Buenrostro
-;Fecha: 10/04/2018
-;Entorno: MPLAB X IDE v4.15
-;Compilador: mpasm (v5.77)
-;Descripcion: Codigo que configura el puerto A como salida y activa el pin RA0 en estado 
-;alto hasta que se elimine la alimentacion del PIC.
+;File: Pin PORTA.asm
+;Author: Joel Buenrostro
+;Date: 10/04/2018
+;Environment: MPLAB X IDE v4.15
+;Compiler: mpasm (v5.77)
+;Description: Code that configures port A as output and activates pin RA0 in a high state 
+;until the power supply of the PIC is eliminated.
 ;-------------------------------------------------------------------------------------------
-;Dispositivo
-		List P=16F84A			;Dispositivo a utilizar
-		#include "p16f84a.inc"		;Incluye las librerias
+;Device
+		List P=16F84A	
+		#include "p16f84a.inc"
 ;-------------------------------------------------------------------------------------------
-;Bits de configuracion
+;Configuration Bits
 		__CONFIG _FOSC_XT & _WDTE_OFF & _PWRTE_ON & _CP_OFF
-;Oscilador externo, Watchdog apagado, Power up timer encendido, Proteccion de codigo apagado
+;External oscillator, Watchdog off, Power up timer on, Code protection off
 ;-------------------------------------------------------------------------------------------
-;Etiquetas	Instruccion	Operando	Comentario
+;Label	 Instruction	Operand 	     Comments
 ;-------------------------------------------------------------------------------------------
-		ORG		0		;Inicia el programa en la direccion 0
-INICIO		BCF		STATUS,RP0	;Seleccionamos el banco 0
-		CLRF		PORTA		;Limpiamos las salidas del puerto A
-		BSF		STATUS,RP0	;Seleccionamos el banco 1
-		MOVLW		B'00000000'	;Cargamos un numero binario en W
-		MOVWF		TRISA		;Configuramos todo el puerto como salida
-		BCF		STATUS,RP0	;Seleccionamos el banco 0
-PRINCIPAL	MOVLW		B'00000001'	;Cargamos un numero binario en W
-		MOVWF		PORTA		;Movemos lo cargado en W al regitro PORTA
-		GOTO		PRINCIPAL	;Saltamos  PRINCIPAL
-		END				;Termina el programa
+		    ORG		    0	         	 ;Start the program at address 0
+START       BCF		    STATUS,RP0	     ;We select bank 0
+		    CLRF		PORTA		     ;We clean the outputs of port A
+		    BSF		    STATUS,RP0	     ;We select the bank 1
+		    MOVLW		B'00000000'	     ;We load a binary number in W
+	     	MOVWF		TRISA		     ;We configure the entire port as output
+		    BCF		    STATUS,RP0	     ;We select bank 0
+MAIN    	MOVLW		B'00000001'	     ;We load a binary number in W
+		    MOVWF		PORTA		     ;We move what is loaded in W to the PORTA register
+		    GOTO		PRINCIPAL	     ;We jump  TO MAIN
+		    END				             ;The program ends
