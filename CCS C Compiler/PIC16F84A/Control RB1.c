@@ -1,10 +1,10 @@
 /******************************************************************************************
-*Archivo: Control RB1.c
-*Contribuidor: Joel Buenrostro
-*Fecha: 18/04/2018
-*Dispositivo: PIC16F84A
-*Entorno: CCS C Compiler v5.015
-*Compilador: PCM Compiler v5.015
+*File: Control RB0.c
+*Author: Joel Buenrostro
+*Date: 15/04/2018
+*Device: PIC16F84A
+*Environment: CCS C Compiler v5.015
+*Compiler: PCM Compiler v5.015
 *Descripcion: Codigo que configura el pin RB1 como salida y lo activa en estado bajo, 
 *espera 500 milisegundos y cambia a estado alto y espera 500 milisegundos nuevamente.
 ******************************************************************************************/
